@@ -41,7 +41,7 @@ on:
 env:
   PROJECT_ID: 'certain-song-437410-d7' # TODO: update to your Google Cloud project ID
   GAR_LOCATION: 'europe-north1' # TODO: update to your region
-  GKE_CLUSTER: 'dm885-cluster' # TODO: update to your cluster name
+  GKE_CLUSTER: 'container.googleapis.com/projects/certain-song-437410-d7/clusters/dm885-cluster' # TODO: update to your cluster name
   GKE_ZONE: 'europe-north1' # TODO: update to your cluster zone
   DEPLOYMENT_NAME: 'hello-world-flask' # TODO: update to your deployment name
   REPOSITORY: 'hello-world-flask' # TODO: update to your Artifact Registry docker repository name
