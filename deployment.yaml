@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: the-deployment
+  name: hello-world-flask
 spec:
   replicas: 2
   selector:
     matchLabels:
-      deployment: hello
+      deployment: hello-world-flask
   template:
     metadata:
       labels:
-        deployment: hello
+        deployment: hello-world-flask
     spec:
       containers:
-      - name: the-container
+      - name: flask-python-container
         image: LOCATION-docker.pkg.dev/PROJECT_ID/REPOSITORY/IMAGE:TAG
         ports:
         - containerPort: 5000
