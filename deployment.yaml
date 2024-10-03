@@ -7,6 +7,7 @@ spec:
   selector:
     matchLabels:
       deployment: hello-world-flask
+      app: hello
   template:
     metadata:
       labels:
