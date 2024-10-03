@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: hello-world-flask
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       deployment: hello-world-flask
